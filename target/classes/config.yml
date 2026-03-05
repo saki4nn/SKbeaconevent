@@ -1,0 +1,27 @@
+effect-chance: 30
+delay-minutes: 60
+
+effects:
+  BLINDNESS:
+    duration: 5
+    level: 1
+  POISON:
+    duration: 8
+    level: 2
+  WITHER:
+    duration: 5
+    level: 1
+  LEVITATION:
+    duration: 3
+    level: 1
+
+messages:
+  spawn: "&6&l[МАЯК] &eПроклятый маяк появился на спавне!"
+  hologram-text: "&c&lОсталось ударов: &e&l%hp%"
+  hit-all: "&7[!] &f%player% &7ударил маяк! Осталось: &c%hp% HP"
+  effect-hit: "&5&lПРОКЛЯТИЕ! &cВы получили негативные эффекты!"
+  win: "&6&l[МАЯК] &aИгрок &f%player% &aразрушил маяк!"
+  delay-check: "&6&l[МАЯК] &eДо появления: &f%min% мин. %sec% сек."
+  status-active: "&6&l[МАЯК] &aМаяк уже на карте! Скорее к нему!"
+
+location: {}

@@ -1,0 +1,12 @@
+name: SKbeaconevent
+version: 1.0
+main: saki4.skbeaconevent.SKbeaconevent
+api-version: 1.16
+commands:
+  beacon:
+    description: Основная команда
+permissions:
+  beacon.admin:
+    default: op
+  beacon.player:
+    default: true
